@@ -12,7 +12,7 @@ String column[]={"ID","NAME","AGE"};
 JTable t=new JTable(data,column);
 t.setBounds(40,50,200,300);
 f.add(t);
-f.setSize(400,500);
+f.setSize(500,500);
 f.setVisible(true);
 }
 public static void main(String args[])
